@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2E056ED1E32609700035762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E056EC1E32609700035762 /* AppDelegate.swift */; };
+		F2E056EF1E32609700035762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E056EE1E32609700035762 /* ViewController.swift */; };
+		F2E056F21E32609700035762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E056F01E32609700035762 /* Main.storyboard */; };
+		F2E056F41E32609700035762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E056F31E32609700035762 /* Assets.xcassets */; };
+		F2E056F71E32609700035762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E056F51E32609700035762 /* LaunchScreen.storyboard */; };
+		F2E056FF1E3268CF00035762 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E056FE1E3268CF00035762 /* GameViewController.swift */; };
+		F2FCF1A31E3695A500D1C560 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCF1A21E3695A500D1C560 /* thirdViewController.swift */; };
+		F2FCF1A51E36977B00D1C560 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCF1A41E36977B00D1C560 /* fourthViewController.swift */; };
+		F2FCF1A71E3698A500D1C560 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCF1A61E3698A500D1C560 /* CustomCollectionViewCell.swift */; };
+		F2FCF1A91E369A3500D1C560 /* VCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCF1A81E369A3500D1C560 /* VCTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2E056E91E32609700035762 /* RockPaperSisssor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperSisssor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E056EC1E32609700035762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2E056EE1E32609700035762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2E056F11E32609700035762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2E056F31E32609700035762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2E056F61E32609700035762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2E056F81E32609700035762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E056FE1E3268CF00035762 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F2FCF1A21E3695A500D1C560 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		F2FCF1A41E36977B00D1C560 /* fourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+		F2FCF1A61E3698A500D1C560 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		F2FCF1A81E369A3500D1C560 /* VCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E056E61E32609600035762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2E056E01E32609600035762 = {
+			isa = PBXGroup;
+			children = (
+				F2E056EB1E32609700035762 /* RockPaperSisssor */,
+				F2E056EA1E32609700035762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E056EA1E32609700035762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E056E91E32609700035762 /* RockPaperSisssor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E056EB1E32609700035762 /* RockPaperSisssor */ = {
+			isa = PBXGroup;
+			children = (
+				F2E056EC1E32609700035762 /* AppDelegate.swift */,
+				F2E056EE1E32609700035762 /* ViewController.swift */,
+				F2E056FE1E3268CF00035762 /* GameViewController.swift */,
+				F2FCF1A21E3695A500D1C560 /* thirdViewController.swift */,
+				F2FCF1A41E36977B00D1C560 /* fourthViewController.swift */,
+				F2FCF1A81E369A3500D1C560 /* VCTableViewController.swift */,
+				F2FCF1A61E3698A500D1C560 /* CustomCollectionViewCell.swift */,
+				F2E056F01E32609700035762 /* Main.storyboard */,
+				F2E056F31E32609700035762 /* Assets.xcassets */,
+				F2E056F51E32609700035762 /* LaunchScreen.storyboard */,
+				F2E056F81E32609700035762 /* Info.plist */,
+			);
+			path = RockPaperSisssor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E056E81E32609600035762 /* RockPaperSisssor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E056FB1E32609700035762 /* Build configuration list for PBXNativeTarget "RockPaperSisssor" */;
+			buildPhases = (
+				F2E056E51E32609600035762 /* Sources */,
+				F2E056E61E32609600035762 /* Frameworks */,
+				F2E056E71E32609600035762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperSisssor;
+			productName = RockPaperSisssor;
+			productReference = F2E056E91E32609700035762 /* RockPaperSisssor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E056E11E32609600035762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "yeswanth varma";
+				TargetAttributes = {
+					F2E056E81E32609600035762 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = E834ARW34M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2E056E41E32609600035762 /* Build configuration list for PBXProject "RockPaperSisssor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E056E01E32609600035762;
+			productRefGroup = F2E056EA1E32609700035762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E056E81E32609600035762 /* RockPaperSisssor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E056E71E32609600035762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E056F71E32609700035762 /* LaunchScreen.storyboard in Resources */,
+				F2E056F41E32609700035762 /* Assets.xcassets in Resources */,
+				F2E056F21E32609700035762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E056E51E32609600035762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FCF1A51E36977B00D1C560 /* fourthViewController.swift in Sources */,
+				F2FCF1A71E3698A500D1C560 /* CustomCollectionViewCell.swift in Sources */,
+				F2E056EF1E32609700035762 /* ViewController.swift in Sources */,
+				F2E056FF1E3268CF00035762 /* GameViewController.swift in Sources */,
+				F2FCF1A91E369A3500D1C560 /* VCTableViewController.swift in Sources */,
+				F2FCF1A31E3695A500D1C560 /* thirdViewController.swift in Sources */,
+				F2E056ED1E32609700035762 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2E056F01E32609700035762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E056F11E32609700035762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2E056F51E32609700035762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E056F61E32609700035762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E056F91E32609700035762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2E056FA1E32609700035762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E056FC1E32609700035762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E834ARW34M;
+				INFOPLIST_FILE = RockPaperSisssor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesh.RockPaperSisssor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2E056FD1E32609700035762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E834ARW34M;
+				INFOPLIST_FILE = RockPaperSisssor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesh.RockPaperSisssor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E056E41E32609600035762 /* Build configuration list for PBXProject "RockPaperSisssor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E056F91E32609700035762 /* Debug */,
+				F2E056FA1E32609700035762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E056FB1E32609700035762 /* Build configuration list for PBXNativeTarget "RockPaperSisssor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E056FC1E32609700035762 /* Debug */,
+				F2E056FD1E32609700035762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E056E11E32609600035762 /* Project object */;
+}
